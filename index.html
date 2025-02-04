@@ -75,14 +75,14 @@
                   </ul>
                 </div>
                 <div class="navbar-end">
-                  <a class="btn bg-legal-primary">Free Consultations</a>
+                  <a class="btn bg-legal-primary text-white">Free Consultations</a>
                 </div>
               </div>
         </nav>
         <!-- This is the hero/banner section  -->
         <section>
             <div
-  class="hero h-[550px]"
+  class="hero h-[550px] lg:mt-6"
   style="background-image: url(images/banner.png);">
   <div class="hero-overlay bg-opacity-40"></div>
   <div class="hero-content text-neutral-content text-center">
@@ -93,7 +93,7 @@
       </p>
       <div class="space-y-2">
         <input class="w-[70%] text-center py-3 rounded-md" type="search" placeholder="Search your services">
-        <button class="btn bg-legal-primary border-none">Get Started</button>
+        <button class="btn bg-legal-primary text-white border-none">Search</button>
       </div>
     </div>
   </div>
@@ -228,7 +228,7 @@
               <div class="hero-content flex-col lg:flex-row-reverse">
                 <img
                   src="images/faq.png"
-                  class="max-w-sm rounded-lg" />
+                  class="lg:w-[40%] w-[90%] mx-auto rounded-lg" />
                 <div class="space-y-4">
                   <!-- This is the accordion  -->
                   <div class="collapse collapse-plus bg-base-200">
@@ -272,9 +272,83 @@
               </div>
             </div>
            </section>
+           <!-- contact us section  -->
+            <section class="pb-16">
+              <div class="space-y-5 my-10">
+                <h1 class="text-4xl font-extrabold header-font text-center">Contact With Us</h1>
+                <p class="text-lg w-[60%] mx-auto text-center">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                </div>
+              <div class="flex flex-col lg:flex-row">
+                 <!-- card container  -->
+                <div class="grid grid-cols-2 text-center bg-[#F3F3F3] mx-auto lg:w-[50%] w-[90%] mb-6">  
+                  <div class="border-r space-y-3 py-10">
+                    <img class="mx-auto" src="images/address.png" alt="">
+                    <h1 class="text-2xl font-bold">Address</h1>
+                    <p>A108 Adam Street, <br>
+                      New York, NY 535022</p>
+                  </div>                   
+                  <div class="border-l space-y-3 py-10">
+                    <img class="mx-auto" src="images/call.png" alt="">
+                    <h1 class="text-2xl font-bold">Call Us</h1>
+                    <p>+88 01750 00 00 00 <br>
+                      +88 01750 00 00 00</p>
+                  </div>                   
+                  <div class="border-t border-r space-y-3 py-10">
+                    <img class="mx-auto" src="images/email.png" alt="">
+                    <h1 class="text-2xl font-bold">Email Us</h1>
+                    <p>info@gmail.com <br>
+                      info@gmail.com</p>
+                  </div>                   
+                  <div class="border-l border-t space-y-3 py-10">
+                    <img class="mx-auto" src="images/time.png" alt="">
+                    <h1 class="text-2xl font-bold">Working Hours</h1>
+                    <p>Mon-Fri: 9AM to 5PM <br>
+                      Sunday: 9AM to 1 PM</p>
+                  </div>                   
+                </div>
+                <!-- input container  -->
+                <div class="flex flex-col lg:w-[40%] w-[90%] mx-auto space-y-5">
+                  <input type="text" placeholder="Your Name" class="bg-[#F3F3F3] text-xl py-6 px-5 rounded-lg">
+                  <input type="email" name="" id="" placeholder="Your Email" class="bg-[#F3F3F3] text-xl py-5 px-5 rounded-lg">
+                  <input type="text" placeholder="Subject" class="bg-[#F3F3F3] text-xl py-5 px-5 rounded-lg">
+                  <textarea name="" id="" cols="30" rows="2" placeholder="Your Message" class="bg-[#F3F3F3] text-xl py-5 px-5 rounded-lg"></textarea>
+                  <button class="bg-legal-primary text-white text-2xl rounded-lg py-5">Send Message</button>
+                </div>
+              </div>
+            </section>
     </main>
-    <footer>
-
+    <footer class="bg-[#111111] flex flex-col lg:flex-row justify-between">
+      <footer class="footer text-[#B7B7B7] text-base-content p-10 max-w-screen-xl mx-auto">
+        <div class="w-[300px]">
+          <img src="images/logo.png" alt="">
+          <p>
+            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.
+          </p>
+        </div>
+        <div>
+          <h6 class="footer-title text-white">Usefull Link</h6>
+          <a class="link link-hover">Home</a>
+          <a class="link link-hover">About Us</a>
+          <a class="link link-hover">Cases</a>
+          <a class="link link-hover">Blog</a>
+          <a class="link link-hover">Contact Us</a>
+        </div>
+        <div>
+          <h6 class="footer-title text-white">Contact Now</h6>
+          <a class="link link-hover">555 4th 5t NW, Washington<br> DC 20530, United States</a>
+          <a class="link link-hover">+88 01750 000 000
+            <br> +88 01750 000 000</a>
+          <a class="link link-hover">info@gmail.com <br>
+            info@gmail.com</a>
+        </div>
+        <div>
+          <h6 class="footer-title text-white">Subscribe</h6>
+          <a class="link link-hover w-[200px]">Subscribe for our latest & Articles. We Won’t Give You Spam Mails</a>
+          <div class="flex">
+            <input class="py-4 px-4 rounded-lg rounded-r-none" type="email" name="" id="" placeholder="Email Address "> <i class="text-2xl text-white px-4 py-3 rounded-lg bg-legal-primary fa-solid fa-arrow-up-right-from-square rounded-l-none"></i>
+          </div>
+        </div>
+      </footer>
     </footer>
 </body>
 </html>
